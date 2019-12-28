@@ -1,0 +1,21 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	padding-top: 20px;
+}
+.table {
+	position: relative;
+}
+/* td{
+	line-height: 20px;
+} */
+
+@media only screen and (max-width: 991px) {
+	.table {
+		top: 0!important;
+	}
+}

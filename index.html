@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="text-center display-4"><i class="fa fa-list-alt text-primary"></i>My<span class="text-primary">Book</span>List</p>
+                <form class="inpform">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" class="form-control heading" id="title" placeholder="Enter title">
+                    </div>
+                    <div class="form-group">
+                        <label for="author">Author</label>
+                        <input type="text" class="form-control" id="author" placeholder="Enter author">
+                    </div>
+                    <div class="form-group">
+                        <label for="isbn">Isbn</label>
+                        <input type="number" class="form-control" id="isbn" placeholder="Enter isbn">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-outline-primary btn-block py-2">Click me</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                            <th scope="col">Isbn</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
